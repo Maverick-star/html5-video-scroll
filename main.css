@@ -92,4 +92,16 @@ section:nth-of-type(5) {
       opacity: 1;
     }
   }
-  
+
+@media only screen and (min-width: 480px) {
+body {
+  font-family: "Roboto"; }
+}
+@media only screen and (min-width: 800px) {
+body {
+  font-family: "Montserrat"; }
+}
+@media only screen and (min-width: 1000px) {
+body {
+  font-family: "Amatic SC"; }
+}
